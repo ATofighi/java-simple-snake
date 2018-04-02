@@ -81,6 +81,7 @@ public class GameServer {
                             } else if (inputLine.startsWith("setMaxScore ")) {
                                 int score = Integer.parseInt(inputLine.substring(12));
                                 scoreManager.setScore(score);
+                                scoreManager.write();
                                 out.println("newScore " + scoreManager.getScore());
                             } else {
                                 out.println("unknownCommand");
