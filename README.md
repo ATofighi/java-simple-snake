@@ -1,2 +1,2 @@
 # java-simple-snake
-Simple snake game with java
+Simple snake game with java.
